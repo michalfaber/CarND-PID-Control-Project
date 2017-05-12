@@ -37,8 +37,8 @@ alt="youtube link" width="480" height="360" border="10" /></a>
 
 The following values for components P,I,D have been used:
  Kp = 0.2
- Kd = 0.0001
- Ki = 3.0
+ Ki = 0.0001
+ Kd = 3.0
 
 Proportional term Kp steers harder the further away we are from the desired trajectory.
 Kp alone causes oscilation which is not desirable property so the additional term is needed - Kd.
